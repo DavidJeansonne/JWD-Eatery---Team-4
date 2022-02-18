@@ -1,0 +1,112 @@
+body{
+  background-image: linear-gradient(black, gray);
+  color: white;
+  border: 2px solid black;
+  position: relative;
+  top: 25px;
+  margin: 2px;
+}
+
+header {
+  text-align: center;
+  margin: 25px;
+}
+
+img {
+  width: 200px;
+  height: 200px;
+}
+
+.nav, .logo, .grid-container{
+  font-family: 'Exo', sans-serif;
+  
+}
+
+
+.nav {
+  position: fixed;
+  background-color: rgb(211, 45, 23);
+  text-align: center;
+  width: 100%;
+  top: 0px;
+  padding: 0;
+  margin: 0;
+  z-index: 10;
+}
+
+.nav-wrapper {
+  height: 100%
+}
+
+.nav li {
+  display: inline-block;
+  padding: 20px;
+}
+
+.nav li a{
+  text-decoration: none;
+  color: white;
+}
+
+.logo h1{
+  font-family: 'PT Sans Caption', sans-serif;
+}
+
+.grid-container {
+  position: relative;
+  top: 20px;
+  display: grid;
+  grid-gap: 3px;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: auto auto auto;
+  background-image: url("images/lantern.jpeg") ;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  overflow: auto;
+  border:2px solid black;
+}
+
+.grid-container div{
+  margin: 5px;
+  padding: 0 20px;
+  text-align: center;
+}
+
+.grid-container img {
+  border-radius: 10px;
+  box-shadow: 5px 9px 12px 4px rgba(0, 0, 0, 0.68);
+}
+
+.bold{
+  font-weight: bold;
+}
+
+#subscribe {
+  text-align: center;
+  margin: 35px 0;
+}
+
+#submit {
+  background: white;
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 5px 10px;
+  transition: all 1s;
+}
+
+#submit:hover {
+  background: black;
+  color: white;
+  transform: translateY(-3px);
+  box-shadow: 0 4px 5px -2px white;
+}
+
+.nav-wrapper a:hover {
+  color: black;
+}
+
+.logo {
+  position: relative;
+  top: 20px;
+}
